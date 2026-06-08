@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Centro Universitario Valle de Anáhuac – Coacalco</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@0,300;0,400;0,600;1,300&family=Inter:wght@300;400;500&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="estilos.css" />
+</head>
+
+<body>
+
+    <nav>
+        <a href="#" class="nav-logo">
+            <img src="logo anahuac web.png" alt="Valle de Anáhuac Coacalco" />
+        </a>
+        <ul class="nav-links">
+            <li><a href="#carreras">Carreras</a></li>
+            <li><a href="#horarios">Horarios</a></li>
+            <li><a href="#ubicacion">Ubicación</a></li>
+        </ul>
+        <a href="#carreras" class="nav-cta">Solicitar información</a>
+    </nav>
+
+    <div class="hero">
+        <div class="hero-text">
+            <p class="hero-kicker">Coacalco, Estado de México</p>
+            <h1>Forma tu futuro<br />en el <em>Valle de<br />Anáhuac</em></h1>
+            <p>Licenciaturas, maestrías y doctorado con enfoque práctico, valores sólidos y más de tres décadas formando
+                profesionales.</p>
+            <div class="hero-actions">
+                <a href="#carreras" class="btn-primary">Ver oferta educativa</a>
+                <a href="#ubicacion" class="btn-ghost">Cómo llegar</a>
+            </div>
+        </div>
+        <div class="hero-image-wrap">
+            <video autoplay loop muted playsinline>
+                <source src="render-4.mp4" type="video/mp4" />
+                Tu navegador no soporta la reproducción de video.
+            </video>
+        </div>
+    </div>
+
+    <div class="strip">
+        <div class="strip-item">
+            <div class="strip-num">9</div>
+            <div class="strip-label">Licenciaturas</div>
+        </div>
+        <div class="strip-item">
+            <div class="strip-num">3</div>
+            <div class="strip-label">Maestrías</div>
+        </div>
+        <div class="strip-item">
+            <div class="strip-num">1</div>
+            <div class="strip-label">Doctorado</div>
+        </div>
+        <div class="strip-item">
+            <div class="strip-num">+30</div>
+            <div class="strip-label">Años de trayectoria</div>
+        </div>
+    </div>
+
+    <section class="section" id="carreras">
+        <p class="label">Oferta académica</p>
+        <h2 class="section-h">Programas que transforman trayectorias</h2>
+
+        <div class="tabs">
+            <button class="tab on" onclick="switchTab(this,'lic')">Licenciaturas</button>
+            <button class="tab" onclick="switchTab(this,'posg')">Posgrado</button>
+        </div>
+
+        <div class="tab-pane on" id="pane-lic">
+            <div class="carrera">
+                <p class="carrera-num">01</p>
+                <h3>Administración</h3>
+                <p>El egresado de la Licenciatura en Administración sera un profesional con una formacion integral en la
+                    gestion y direccion de organizaciones, capaz de diseñar, implementar y evaluar estrategias para
+                    optimizar los recursos humanos, financieros y materiales de una empresa. contara con habilidades
+                    analiticas, de liderazgo y toma de decisiones para enfrentar los retos del entorno empresarial con
+                    un enfoque estrategico, innovador y sustentable.</p>
+                <span class="carrera-tag">Escolarizado · Sabatino</span>
+            </div>
+
+            <div class="carrera">
+                <p class="carrera-num">02</p>
+                <h3>Contaduría Pública</h3>
+                <p>El egresado de la Licenciatura en Contaduria Publica será un profesional con conocimientos sólidos en
+                    contabilidad, administración, derecho fiscal y auditoria, capaz de analizar y gestionar información
+                    financiera para la toma de decisiones estratégicas en empresas y organizaciones. Tendrá una visión
+                    integral del entorno económico y empresarial, con habilidades para optimizar recursos, cumplir con
+                    normativas fiscales y desarrollar estrategias financieras eficientes.
+                </p>
+                <span class="carrera-tag">Escolarizado · Sabatino</span>
+            </div>
+
+            <div class="carrera">
+                <p class="carrera-num">03</p>
+                <h3>Criminología y Criminalística</h3>
+                <p>El egresado de la Licenciatura en Criminología y Criminalística será un profesional altamente
+                    capacitado en la investigación, análisis y prevención del delito, aplicando conocimientos
+                    científicos y técnicos en el estudio del comportamiento criminal y la recolección de evidencia.
+                    Tendrá una formación multidisciplinaria que abarca derecho, psicología, biología, química forense y
+                    técnicas de investigación para esclarecer hechos delictivos y contribuir a la procuración de
+                    justicia.</p>
+                <span class="carrera-tag">Escolarizado</span>
+            </div>
+
+            <div class="carrera">
+                <p class="carrera-num">04</p>
+                <h3>Derecho</h3>
+                <p>El egresado de la Licenciatura en Derecho del Centro Universitario Valle de Anáhuac será un
+                    profesional con una sólida formación jurídica, ética y humanística, capaz de interpretar y aplicar
+                    el marco normativo nacional e internacional en diferentes ámbitos del derecho. Poseerá habilidades
+                    analíticas y argumentativas para la solución de conflictos legales, así como conocimientos profundos
+                    en áreas clave como derecho penal, civil, mercantil, fiscal, laboral, corporativo e internacional.
+                    Además, contará con formación en investigación jurídica, filosofía del derecho y administración
+                    pública, lo que le permitirá abordar problemáticas legales desde una perspectiva integral y crítica.
+                    Será capaz de ejercer su profesión con responsabilidad social, contribuyendo a la impartición de
+                    justicia, la asesoría legal y la construcción de un estado de derecho sólido
+                </p>
+                <span class="carrera-tag">Escolarizado · Sabatino</span>
+            </div>
+
+            <div class="carrera">
+                <p class="carrera-num">05</p>
+                <h3>Idiomas</h3>
+                <p>El egresado de la Licenciatura en Idiomas será un profesional altamente capacitado en el dominio y la
+                    aplicación de múltiples lenguas, con habilidades en lingüística, traducción, enseñanza de idiomas y
+                    comunicación intercultural. Contará con una formación integral que le permitirá desempeñarse en
+                    diversos ámbitos con una visión crítica, creativa y ética.</p>
+                <span class="carrera-tag">Escolarizado</span>
+            </div>
+
+            <div class="carrera">
+                <p class="carrera-num">06</p>
+                <h3>Informática Administrativa</h3>
+                <p>El egresado de la Licenciatura en Informática Administrativa será un profesional con sólidos
+                    conocimientos en informática, administración y tecnologías de la información, capaz de diseñar,
+                    desarrollar e implementar soluciones tecnológicas para la optimización de procesos administrativos
+                    en empresas y organizaciones.</p>
+                <span class="carrera-tag">Escolarizado · Sabatino</span>
+            </div>
+
+            <div class="carrera">
+                <p class="carrera-num">07</p>
+                <h3>Pedagogía</h3>
+                <p>El egresado de la Licenciatura en Pedagogía contará con una formación integral que le permitirá
+                    analizar, diseñar, implementar y evaluar procesos educativos en diversos contextos. Tendrá
+                    conocimientos sólidos en teoría pedagógica, desarrollo humano, orientación educativa y uso de
+                    tecnologías aplicadas a la enseñanza. Además, estará capacitado para diagnosticar y atender
+                    dificultades de aprendizaje, desarrollar estrategias de enseñanza innovadoras y contribuir a la
+                    mejora de los sistemas educativos mediante la investigación y la gestión educativa. En el ámbito
+                    profesional, el pedagogo egresado del Centro Universitario Valle de Anahuac será un líder en la
+                    transformación educativa, promoviendo el desarrollo de habilidades del pensamiento, la inclusión y
+                    la adaptación de la educación a las necesidades actuales de la sociedad.
+                </p>
+                <span class="carrera-tag">Escolarizado · Sabatino</span>
+            </div>
+
+            <div class="carrera">
+                <p class="carrera-num">08</p>
+                <h3>Psicología Clínica</h3>
+                <p>El egresado de la Licenciatura en Psicología Clínica será un profesional con una sólida formación
+                    teórica y práctica en la evaluación, diagnóstico e intervención psicológica. Estará capacitado para
+                    atender problemáticas de salud mental en diferentes etapas del desarrollo humano, aplicando enfoques
+                    psicoterapéuticos adecuados a cada caso. Su preparación le permitirá trabajar en la prevención,
+                    detección y tratamiento de trastornos emocionales, conductuales y cognitivos en diversos contextos.
+                    El egresado contará con las siguientes competencias: - *Evaluación Psicológica*: Aplicación e
+                    interpretación de pruebas psicométricas y proyectivas para el diagnóstico de trastornos
+                    psicológicos. - *Psicoterapia y Técnicas de Intervención*: Habilidad para llevar a cabo procesos
+                    terapéuticos individuales, grupales, familiares y de pareja, con enfoques como cognitivo-conductual,
+                    humanista y psicodinámico. - *Psicopatología y Diagnóstico Clínico*: Conocimiento de los principales
+                    trastornos psicológicos y sus tratamientos basados en la evidencia. - *Neuropsicología y Psicología
+                    Fisiológica*: Comprensión de la relación entre el sistema nervioso y la conducta para el abordaje de
+                    alteraciones cognitivas y emocionales. - *Psicología del Desarrollo y Educación Especial*:
+                    Intervención en niños, adolescentes y adultos con necesidades educativas especiales o problemas de
+                    aprendizaje.</p>
+                <span class="carrera-tag">Escolarizado</span>
+            </div>
+
+            <div class="carrera">
+                <p class="carrera-num">09</p>
+                <h3>Publicidad y Marketing</h3>
+                <p>El egresado de la Licenciatura en Publicidad y Marketing será un profesional con una formación
+                    integral en estrategias de comunicación, diseño publicitario y mercadotecnia. Estará capacitado para
+                    analizar mercados, diseñar campañas creativas y gestionar proyectos publicitarios y de marketing en
+                    entornos nacionales e internacionales. El egresado contará con las siguientes competencias:
+                    Estrategia y gestión publicitaria: Dominio del proceso de planeación publicitaria, desde el análisis
+                    del consumidor hasta la ejecución de campañas. Marketing y mercadotecnia digital: Desarrollo de
+                    estrategias de mercado aplicadas a entornos físicos y digitales. Creatividad y diseño publicitario:
+                    Capacidad para conceptualizar y producir materiales gráficos, audiovisuales y digitales para
+                    campañas publicitarias. Investigación de mercados: Habilidad para analizar datos, tendencias y
+                    preferencias del consumidor. Dirección y administración: Gestión de empresas de publicidad y
+                    marketing, incluyendo ventas, finanzas y factor humano. Comunicación integral: Capacidad para
+                    integrar distintos medios y plataformas en estrategias publicitarias efectivas.</p>
+                <span class="carrera-tag">Escolarizado · Sabatino</span>
+            </div>
+        </div>
+
+        <div class="tab-pane" id="pane-posg">
+            <div class="carrera">
+                <p class="carrera-num">M1</p>
+                <h3>Maestría en Educación</h3>
+                <p>Perfecciona la práctica docente e innova en programas educativos mediante investigación y nuevas
+                    tecnologías.</p>
+                <span class="carrera-tag">Maestría</span>
+            </div>
+
+            <div class="carrera">
+                <p class="carrera-num">M2</p>
+                <h3>Maestría en Derecho Constitucional y Amparo</h3>
+                <p>Alta especialización en defensa de derechos humanos y dominio del juicio de amparo.</p>
+                <span class="carrera-tag">Maestría</span>
+            </div>
+
+            <div class="carrera">
+                <p class="carrera-num">M3</p>
+                <h3>Maestría en Alta Dirección</h3>
+                <p>Forma líderes y altos ejecutivos para decisiones estratégicas a gran escala.</p>
+                <span class="carrera-tag">Maestría</span>
+            </div>
+
+            <div class="carrera">
+                <p class="carrera-num">D1</p>
+                <h3>Doctorado en Educación</h3>
+                <p>El máximo grado académico en educación. Investigación original para resolver problemáticas de los
+                    sistemas educativos.</p>
+                <span class="carrera-tag">Doctorado</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-alt" id="horarios">
+        <p class="label">Horarios</p>
+        <h2 class="section-h">Turnos disponibles</h2>
+
+        <div class="horarios-grid">
+            <div class="horario">
+                <p class="horario-type">Turno matutino</p>
+                <h3>Lunes a Viernes</h3>
+                <div class="horario-row"><span>Clases</span><span>07:00 – 13:00</span></div>
+                <div class="horario-row"><span>Sábado</span><span>08:00 – 12:00</span></div>
+                <div class="horario-row"><span>Domingo</span><span>Cerrado</span></div>
+            </div>
+
+            <div class="horario">
+                <p class="horario-type">Turno vespertino</p>
+                <h3>Lunes a Viernes</h3>
+                <div class="horario-row"><span>Clases</span><span>13:00 – 20:00</span></div>
+                <div class="horario-row"><span>Sábado</span><span>Cerrado</span></div>
+                <div class="horario-row"><span>Domingo</span><span>Cerrado</span></div>
+            </div>
+
+            <div class="horario">
+                <p class="horario-type">Turno sabatino</p>
+                <h3>Solo sábados</h3>
+                <div class="horario-row"><span>Clases</span><span>08:00 – 14:00</span></div>
+                <div class="horario-row"><span>Lunes – Viernes</span><span>Sin clases</span></div>
+                <div class="horario-row"><span>Domingo</span><span>Cerrado</span></div>
+            </div>
+
+            <div class="horario">
+                <p class="horario-type">Oficinas escolares</p>
+                <h3>Servicios administrativos</h3>
+                <div class="horario-row"><span>Lunes – Viernes</span><span>08:00 – 18:00</span></div>
+                <div class="horario-row"><span>Sábado</span><span>08:00 – 14:00</span></div>
+                <div class="horario-row"><span>Tel.</span><span>55 5865 2279</span></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="ubicacion">
+        <p class="label">Ubicación</p>
+        <h2 class="section-h">Visítanos en Coacalco</h2>
+
+        <div class="ubi-wrap">
+            <div class="ubi-map">
+                <iframe
+                    src="https://maps.google.com/maps?q=Av.%20Hidalgo%208,%20San%20Lorenzo%20Tetlixtac,%20Coacalco&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                    allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                    title="Mapa Valle de Anáhuac Coacalco">
+                </iframe>
+            </div>
+
+            <div class="ubi-info">
+                <div class="ubi-block">
+                    <div class="ubi-icon"></div>
+                    <div>
+                        <p class="ubi-block-label">Dirección</p>
+                        <p class="ubi-block-val">Av. Hidalgo #8, San Lorenzo Tetlixtac<br />C.P. 55714, Coacalco de
+                            Berriozábal<br />Estado de México</p>
+                    </div>
+                </div>
+
+                <div class="ubi-block">
+                    <div class="ubi-icon"></div>
+                    <div>
+                        <p class="ubi-block-label">Teléfono</p>
+                        <p class="ubi-block-val">+52 (55) 5865 2279</p>
+                    </div>
+                </div>
+
+                <div class="ubi-block">
+                    <div class="ubi-icon"></div>
+                    <div>
+                        <p class="ubi-block-label">Horario de atención</p>
+                        <p class="ubi-block-val">Lunes a viernes: 8:00 – 18:00 hrs<br />Sábado: 8:00 – 14:00 hrs</p>
+                    </div>
+                </div>
+
+                <div class="ubi-block">
+                    <div class="ubi-icon"></div>
+                    <div>
+                        <p class="ubi-block-label">Cómo llegar</p>
+                        <p class="ubi-block-val">Metro Cuatro Caminos + combi a Coacalco<br />Mexibús Línea 3 · Parada
+                            Hidalgo</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Centro Universitario Valle de Anáhuac — Coacalco, Estado de México</p>
+        <a href="#carreras">Ver carreras</a>
+    </footer>
+
+    <script>
+        function switchTab(btn, id) {
+            document.querySelectorAll('.tab').forEach(t => t.classList.remove('on'));
+            document.querySelectorAll('.tab-pane').forEach(p => p.classList.remove('on'));
+            btn.classList.add('on');
+            document.getElementById('pane-' + id).classList.add('on');
+        }
+    </script>
+</body>
+
+</html>
